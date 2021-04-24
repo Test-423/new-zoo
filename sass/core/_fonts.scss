@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-style: normal;
+}
+
+%text-h1 {
+    font-weight: bold;
+    font-size: 114px;
+    line-height: 80%;
+    text-transform: uppercase;
+}
+
+%text-hy {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 120%;
+
+}
+
+%text-h3 {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 130%;
+}
+%text-sub {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+}
+%text-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+%text-body {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+%text-small {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+}
