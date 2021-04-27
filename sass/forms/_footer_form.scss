@@ -1,0 +1,31 @@
+.footer-sub-block {
+    &__form {
+        margin-top: 14px;
+        display: flex;
+    }
+    &__email {
+        width: 228px;
+        height: 42px;
+        border: 2px solid hsl(24, 96%, 60%);
+        border-radius: 2px;
+        padding-left: 9px;
+        margin-right: 9px;
+        font-size: 16px;
+        background-color: transparent;
+        &::placeholder{
+            color: white;
+        }
+    }
+
+    &__submit {
+        @extend %flex-center-center;
+        @extend %text-body;
+        width: 129px;
+        height: 42px;
+        border-radius: 5px;
+        border: 1px solid hsl(206, 12%, 23%);
+        background: hsl(150, 8%, 95%);
+        color: hsl(0, 0%, 0%);
+        cursor: pointer;
+    }
+}

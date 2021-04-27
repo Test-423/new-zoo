@@ -51,3 +51,7 @@ $colors: (
     gray: hsl(0, 1%, 46%),
     red: hsl(0, 83%, 45%),
 );
+
+@function color($val) {
+    @return map-get($colors, $val);
+}

@@ -1,7 +1,2 @@
-.test {
-    width: 80px;
-    height: 80px;
-    display: block;
-    border: 2px solid black;
-    border-radius: 42px;
-}
+@import '../../sass/core/core';
+@import '../../sass/layout/footer';

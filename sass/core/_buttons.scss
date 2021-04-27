@@ -1,0 +1,28 @@
+@import "colors";
+@import "base";
+@import "fonts";
+
+.btn-oblong-square,
+.btn-oblong-circle {
+    @extend %flex-center-center;
+    @extend %text-btn;
+    max-width: 298px;
+    width: 100%;
+    height: 54px;
+    font-size: 16px;
+    line-height: 140%;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: color(orange);
+    &:hover {
+        background: color(green);
+    }
+}
+.btn-oblong-square{
+    @media screen and (max-width: 550px){
+        border-radius: 5px;
+    }
+}
+.btn-oblong-circle {
+    border-radius: 25px;
+}
